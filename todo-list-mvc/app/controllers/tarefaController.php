@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../models/tarefa.php';
-class TerefaController {
+class TarefaController {
     private $tarefaModel;
 
     public function __construct() {

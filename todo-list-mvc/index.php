@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ ."/app/controllers/tarefaController.php";
 
-$controller = new terefaController();
+$controller = new TarefaController();
 
 $action = $_GET["action"] ?? 'index';
 
